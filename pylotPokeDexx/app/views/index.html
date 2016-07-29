@@ -1,0 +1,15 @@
+<html>
+  <head>
+	<link rel="stylesheet" href="/static/css/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Indie+Flower" rel="stylesheet">
+  </head>
+
+  <body>
+  	{% for p in pokemon %}
+    <div id="square">
+    	<img src="{{ p }}">
+    </div>
+    {% endfor %}
+  </body>
+</html>

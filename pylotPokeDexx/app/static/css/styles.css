@@ -1,0 +1,16 @@
+* {
+  font-family: Dosis 
+}
+img {
+	height: 100px;
+	width: 100px;
+	border: #00ffff solid 2px;
+	color: #00ffff; 
+	
+}
+#square {
+	box-sizing: border-box;
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+}
